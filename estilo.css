@@ -1,0 +1,75 @@
+body {
+    background-color: #444444;
+    color: white;
+    height: 100%;
+}
+
+body a {
+    color: white;
+    margin-bottom: 100px;
+}
+
+body h1 {
+    font-size: 3em;
+    background-color: white;
+    color: #333333;
+}
+
+.Contenedor {
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    text-align: center;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.Imagen1 {
+    margin-bottom: 20px;
+}
+
+.Imagen1 img {
+    width: 200px;
+    height: 200px;
+}
+
+#TextCorto {
+    background-color: white;
+    color: #333333; 
+}
+
+#Inferior {
+color: #FFF;
+background: #000;
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:0px; /*A la derecha deje un espacio de 0px*/
+right:0px; /*A la izquierda deje un espacio de 0px*/
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:50px; /*alto del div*/
+z-index:0;
+}
+
+/* ancho barra scroll*/
+::-webkit-scrollbar {
+    width: 7.5px;
+    border-radius: 8px;
+}
+
+/* Linea fondo */
+::-webkit-scrollbar-track {
+    background: #CCC; 
+    border-radius: 8px;
+}
+
+/* Barra de ubicación */
+::-webkit-scrollbar-thumb {
+    background: #777777; 
+    border-radius: 8px;
+}
+
+/* Barra de ubicación cuando paso el mouse por encima */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+    border-radius: 8px;
+}
